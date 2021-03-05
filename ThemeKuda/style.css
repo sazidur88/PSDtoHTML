@@ -1,0 +1,446 @@
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.banner {
+	background-color: #87509c;
+	width: 100%;
+	height: 100vh;
+	background-image: url('images/cover.jpg');	
+	background-size: cover;
+}
+
+.mid {
+	width: 80%;
+	margin: auto;
+}
+
+.header:after {
+	content:'';
+	display: block; 
+	clear: both;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+.menu {
+	width: 70%;
+	float: left;
+}
+
+.menu ul {
+	text-align: right;
+	
+}
+
+.menu ul li {
+	display: inline-block;
+	
+}
+
+.menu ul li a{
+	color: #FFF;
+	font-size: 14px;
+	padding: 10px 20px;
+	display: block;
+	text-transform: uppercase;
+	border-radius: 3px;
+	/* text-decoration: none; */
+}
+
+.blr {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
+
+.menu ul li a:hover {
+	background-color: rgba(100, 58, 121, .5);
+}
+
+.banner-content h2 {
+	font-size: 40px;
+	color: #FFF;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	margin-top: 200px;
+}
+
+.banner-content a {
+	background-color: #eb7d4b;
+	color: #FFF;
+	text-transform: uppercase;
+	width: 150px;
+	padding: 15px 25px;
+	display: block;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	border-bottom: 5px solid #c86a40;
+	border-radius: 5px;
+}
+
+.service {
+	background-color: #17c2a4;
+	padding: 100px 0px;
+}
+
+.service h2 {
+	text-align: center;
+	font-size: 40px;
+	color: #FFF;
+}
+
+.service hr {
+	width:70px;
+	border: none;
+	border-top: 6px solid #14a58c;
+	margin:15px auto;
+
+}
+
+.service p{
+	text-align: center; 
+	color: #FFF;
+	width: 50%;
+	margin: auto;
+}
+.services-area {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.service-box {
+	width: 23%;
+	display: inline-block;
+}
+
+.service-box p {
+	width: 80%;
+	line-height: 20px;
+}
+
+.service-box h3 {
+	text-transform: uppercase;
+	color: #FFF;
+	margin: 20px 0px;
+}
+
+
+.team {
+	background-color: #e7f1f8;
+	padding: 100px 0px;
+}
+
+.team  h2 {
+	text-align: center; 
+	font-size: 40px;
+	color: #3c4761;
+}
+
+.team hr {
+	width: 60px;
+	border: none;
+	border-top: 6px solid #c8d9e5;
+	margin:20px auto;
+
+}
+
+.team p{
+	text-align: center;
+	color: #3c4761;
+}
+
+.team-area {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.team-box {
+	width: 23%;
+	display: inline-block;
+}
+
+.team-box img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 10px solid #FFF;
+	box-shadow: 0px 0px 5px #ccc;
+}
+
+.team-box h3 {
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: #27283d;
+	font-size: 22px;
+}
+
+.team-box h4 {
+
+	color: #30bae7;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 10px 0px;
+}
+
+.team-box p{
+	color: #3c4761;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 22px;
+	width: 80%;
+	margin: auto;
+}
+
+.social {
+	margin-top: 20px;
+}
+.social ul li{
+	display: inline-block;
+}
+
+.social ul li a {
+	display: block; 
+	font-size: 15px;
+	height: 15px;
+	width: 15px;
+	line-height: 15px;
+	text-align: center;
+	background-color: #bdd1df;
+	padding: 10px;
+	color: #FFF;
+	border-radius: 50%;
+}
+
+.skills {
+	background-color: #fff;
+	padding: 100px 0px;
+}
+
+.skills h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #3c4761;
+}
+
+.skills hr {
+	width: 60px;
+	border: none;
+	border-top: 6px solid #c8d9e5;
+	margin:20px auto;
+}
+
+.skills p {
+	width: 60%;
+	margin: auto; 
+	text-align: center;
+	line-height: 22px;
+	color: #3c4761;
+}
+
+.skills-area {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.skills-box {
+	width: 23%;
+	display: inline-block; 
+}
+
+.skills-box  h3 {
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.portfolio {
+	background-color: #ffdd99;
+	padding: 100px 0px;
+
+}
+
+.portfolio h2 {
+	font-size: 40px;
+	text-align: center; 
+	color: #393939;
+}
+
+.portfolio hr {
+	width: 60px;
+	border: none;
+	border-top: 6px solid #ebc985;
+	margin:20px auto;
+}
+
+.portfolio p{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	color: #393939;
+	line-height: 24px;
+}
+
+.portfolio-menu ul {
+	margin: 50px 0px; 
+	text-align: center;
+}
+
+.portfolio-menu ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.portfolio-menu ul li  a {
+	padding: 10px 20px;
+	display: block; 
+	color: #000;
+	background-color: #ebc985;
+	text-transform: uppercase;
+	border-radius: 3px;
+
+}
+
+.portfolio-menu ul li  a:hover {
+	background-color: #fff;
+}
+
+.portfolio-menu ul li  a:focus {
+	background-color: #fff;
+}
+
+.portfolio-area {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.portfolio-box {
+	width: 48%;
+	display: inline-block; 
+	margin-bottom: 40px;
+
+}
+
+.portfolio-box img {
+	width: 80%;
+	margin: auto;
+
+}
+
+.portfolio-box h3 {
+	text-transform: uppercase; 
+	font-weight: 200;
+	color: #393939;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.load a {
+	padding: 20px 50px;
+	background-color: #17c2a4;
+	text-align: center; 
+	color: #FFF;
+	text-transform: uppercase; 
+	font-weight: 600;
+	border-bottom: 5px solid #14a58c;
+	border-radius: 5px;
+	display: table; 
+	margin: auto;
+}
+
+.people-say {
+	background-color: #d74680;
+	padding: 100px 0px;
+}
+
+.people-say h2 {
+	text-align: center; 
+	font-size: 40px;
+	color: #FFF;
+}
+
+.people-say hr{
+	width: 60px;
+	border: none;
+	border-top: 6px solid #b73c6d;
+	margin:20px auto;
+}
+
+.people-say p {
+	text-align: center; 
+	color: #FFF;
+}
+
+.people-area {
+	margin-top: 50px;
+}
+
+.people-box  {
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.people-box :after {
+	content:'';
+	display: block; 
+	clear: both;
+}
+
+.people-box .pimg {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.people-box .pimg img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+
+}
+.people-content {
+	width: 70%;
+	float: left;
+	margin-left: 20px;
+}
+
+.people-content p{
+	font-size: 18px;
+	text-align: left; 
+	font-style: italic;
+	width: 80%;
+	line-height: 26px;
+
+}
+.people-content p:before {
+	content:'"';
+	display: inline-block;
+}
+
+.people-content p:after {
+	content:'"';
+	display: inline-block;
+}
+
+.people-content  h3 {
+	color: #FFF;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.people-content  h4 {
+	color: #FFF;
+	margin-top: 5px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffdd99;
+}
